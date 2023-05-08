@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js" rel="javascript"></script>
+    <link rel = "icon" href = "icon.png">
+</head>
+<body>
+    <div class = "container">
+        
+        <h1 id = "heading">
+            Take Your Notes Here 👇
+        </h1>
+    </div>
+    <center>
+    <div class = "inp_container">   
+        <div id = "input_div">
+            <input type = "text" id = "h_input" placeholder="enter heading">
+            <input type = "text" id = "m_input" placeholder="enter the key words here">
+        
+        </div>
+        <div id="btn_div">
+            <button onclick="add_h()" id = "h_btn" type = "submit">add heading</button>
+            <button onclick="add()" type = "submit" id = "submit_btn">add key point</button>
+            <button type = "reset" onclick = "refresh()" id = "ref_btn">erase all</button>
+        </div>
+        
+    </center>
+    </div>
+    <div id = "note_div">
+        <h2 id = "h_note"></h2>
+        <p id = "note">
+          
+        </p>
+        
+    </div>
+
+</body>
+</html>
