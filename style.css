@@ -67,4 +67,5 @@ button{
     font-size: x-large;
     text-decoration: solid underline;
     overflow:scroll;
+    padding:1%;
 }
