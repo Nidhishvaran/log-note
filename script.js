@@ -3,8 +3,8 @@ function add(){
     
     let new_text;
     let _input = document.getElementById("m_input").value 
-    if(_input === ""){
-
+    if(document.getElementById("m_input").value === ""){
+        i-=1
     }
     else{
     
@@ -50,6 +50,10 @@ let refresh = () =>{
 }
 function add_h()
 {   
+    if (document.getElementById("h_input").value===""){
+
+    }
+    else{
     let new_heading = document.getElementById("h_input").value
     if( document.getElementById("h_note").innerHTML === ""){
     let new_tag_h = document.createElement("h2")
@@ -59,9 +63,11 @@ function add_h()
     element_.appendChild(new_tag_h)
     document.getElementById("h_input").value = ""
     
+    
 }   
 else{
     
 
+}
 }
 }
